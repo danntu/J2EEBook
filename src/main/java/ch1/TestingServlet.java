@@ -12,6 +12,12 @@ public class TestingServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
         out.println("<html>");
-        out.println("Welcome");
+        out.println("<head>");
+        out.println("<title>Servlet Testing</title>");
+        out.println("</head");
+        out.println("<body>");
+        out.println("Welcome to the Servlet Testing Center");
+        out.println("</body>");
+        out.println("</html>");
     }
 }
