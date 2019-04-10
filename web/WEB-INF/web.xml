@@ -11,4 +11,13 @@
         <servlet-name>Testing</servlet-name>
         <url-pattern>/servlet/Testing</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Primitive</servlet-name>
+        <servlet-class>ch2.PrimitiveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Primitive</servlet-name>
+        <url-pattern>/servlet/Primitive</url-pattern>
+    </servlet-mapping>
 </web-app>

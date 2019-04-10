@@ -12,5 +12,6 @@
   </head>
   <body>
   <a href="servlet/Testing">TestingServlet</a>
+  <a href="servlet/Primitive">PrimitiveServlet</a>
   </body>
 </html>
